@@ -1,0 +1,135 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+   
+}
+
+.phonebookapp {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #696307;
+}
+
+.userInputArea {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.userInputArea input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#add {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#add:hover {
+    background-color: #45a049;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBar input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #050505;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.contactList {
+    width: 100%;
+}
+
+.contactList div {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bold{
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+}
+
+#list > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+#list span {
+    flex: 2;
+    width: calc(100% / 3);
+    text-align:center;
+
+} 
+
+.contactList div:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.contactList div:nth-child(even) {
+    background-color: #ffffff;
+}
+
+button {
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#add {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button#update {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button#delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
